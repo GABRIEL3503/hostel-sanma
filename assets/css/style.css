@@ -1029,7 +1029,7 @@ section {
 # Specials
 --------------------------------------------------------------*/
 .specials {
-  background-color: #ececec;
+  background-color: #ffffff;
   overflow: hidden;
 }
 
@@ -1139,7 +1139,7 @@ section {
 }
 
 .events .event-item .price {
-  font-size: 26px;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
