@@ -5,6 +5,7 @@
 * License: https://bootstrapmade.com/license/
 */
 :root {
+  --color-defaultete: #253546;
   --color-default: #105191;
   --color-primary: #548ce0;
   --color-secondary: #5d7ea3;
@@ -1336,6 +1337,21 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  background: url("../img/bicibackrgound/tre.jfif") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+#contact:before {
+  content: "";
+  background:rgb(0 24 42 / 72%);
+  position: absolute;
+  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .contact .info {
   width: 100%;
 }
