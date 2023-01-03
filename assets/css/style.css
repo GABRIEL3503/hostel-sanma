@@ -9,7 +9,7 @@
   --color-default: #105191;
   --color-primary: #548ce0;
   --color-secondary: #5d7ea3;
-  --color-terceary: #d9ba85;
+  --color-terceary: #f9daa6;
   --color-cuartari: #b9a787;
   --color-cuartarinew: #ffe2b0;
 }
@@ -232,7 +232,7 @@ h6 {
 .book-a-table-btn {
   margin: 0 0 0 15px;
   border: 2px solid var(--color-default);
-  color:var(--color-default) ;
+  color: white ;
   border-radius: 50px;
   padding: 8px 25px;
   text-transform: uppercase;
@@ -739,7 +739,7 @@ section {
   margin-top: 18px;;
 }
 .call-to-action {
-  background: linear-gradient(rgba(0, 57, 117, 0.8), rgba(27, 47, 69, 0.8)), url("../img/bicibackrgound/tre.jfif") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(2, 47, 72, 0.8)), url("../img/bicibackrgound/tre.jfif") center center;
   background-size: cover;
   padding: 35px 0;
    margin-top: -8px;
@@ -758,7 +758,7 @@ section {
 
 .call-to-action h3 {
   text-align: center;
- color:  white;
+ color:  var(--color-terceary);
   font-size: 28px;
   margin-bottom: 25px;
   font-weight: 700;
@@ -1169,7 +1169,7 @@ section {
 }
 
 .events .section-title h2 {
-  color: rgb(180, 180, 180);
+  color: var(--color-terceary);
 }
 
 .events .container {
@@ -1347,14 +1347,14 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact{
-  background: url("../img/bicibackrgound/tre.jfif") top center;
+  background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(2, 47, 72, 0.8)), url("../img/bicibackrgound/tre.jfif") center center;
   background-size: cover;
   position: relative;
   padding: 0;
 }
 #contact:before {
   content: "";
-  background:rgb(0 54 94 / 72%);
+
   position: absolute;
   inset: 0;
   top: 0;
@@ -1379,6 +1379,7 @@ section {
 }
 
 .contact .info h4 {
+  color: var(--color-terceary);
   padding: 0 0 0 60px;
   font-size: 18px;
   font-weight: 500;
@@ -1390,7 +1391,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #bab3a6;
+  color: white;
 }
 
 .contact .info .open-hours,
