@@ -378,8 +378,14 @@ h6 {
   line-height: 0;
   transition: 0.5s;
 }
-
+.logofoot{
+  max-width: 118% ;
+    }
 @media (max-width: 991px) {
+  .logofoot{
+max-width: 70% ;
+  }
+
   .mobile-nav-toggle {
     display: block;
   }
