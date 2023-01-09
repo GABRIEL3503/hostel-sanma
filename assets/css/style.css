@@ -1678,3 +1678,17 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.mifoot{
+
+  background-color: black;
+  color: white;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+.mifoot h2{
+  margin-top: 17px;
+  margin-bottom: -11px;
+  font-size: 15px;
+}
